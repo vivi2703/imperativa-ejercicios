@@ -20,8 +20,8 @@ console.log(texto);
 // Ejercicio 4
 var anoNacimiento = parseInt(prompt('Ponga su año de nacimiento '));
 var anoActual = parseInt(prompt('Ponga su anoActual: '));
-var edad = anoActual - anoActual;
-console.log(`tienes X anos` + edad);
+var edad = anoActual - anoNacimiento;
+console.log('Tienes ' + edad + ' anos');
 
 
 
