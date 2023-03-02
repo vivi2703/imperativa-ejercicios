@@ -10,6 +10,19 @@ console.log(texto);
 */
 
 ///////////////////////////////////
-// Ejercicio en clase
-var nombre = prompt('Ponga su nombre: ');
-console.log('Hola ' + nombre);
+// Ejercicio 2
+//var nombre = prompt('Ponga su nombre: ');
+//console.log('Hola ' + nombre + "!");
+// Ejercicio 3
+//var numero1 = prompt('Ponga su numero: ');
+//var numero2 = prompt('Ponga su segundo numero: ');
+//console.log(numero1 + numero2);
+// Ejercicio 4
+var anoNacimiento = parseInt(prompt('Ponga su año de nacimiento '));
+var anoActual = parseInt(prompt('Ponga su anoActual: '));
+var edad = anoActual - anoActual;
+console.log(`tienes X anos` + edad);
+
+
+
+
