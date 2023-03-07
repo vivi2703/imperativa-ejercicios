@@ -109,7 +109,8 @@ function aMayusculas(listaDePeliculas){
     let respuesta = []
     for(let pos=0; pos<listaDePeliculas.length; pos++){
         let x = listaDePeliculas[pos].toUpperCase();
-        respuesta += [x]
+        //respuesta += [x]
+        respuesta.push(x)
     }
     return respuesta
 }
