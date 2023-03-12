@@ -11,14 +11,20 @@ let respuestas = [
 ]
 let puntaje = 0;
 for(let n_pregunta=0; n_pregunta < preguntas.length; n_pregunta++) {
+    // para cada pregunta, permito hasta 3 intenetos para responder bien
     let oportunidad = 3;
+    // en el while, cada vez baja en 1 el valor de oportunidad (si responden mal)
+    // 3 >= 0?true ; 2 >= 0?true ; 1 >= 0?true ; 0 >= 0?true pero 0 > 0?false
     while(oportunidad > 0) {
         var rta = prompt(preguntas[n_pregunta]);
         if (rta == respuestas[n_pregunta]) {
             console.log('Correcto!');
-            puntaje = puntaje + 1;
+            // si respondio correctamente, aumento el puntaje
+            puntaje = puntaje + 1; 
+            // hago que deje de intentar esta pregunta (porque ya contesto bien)
             oportunidad = 0;
         } else {
+            // si respondio mal, no aumento el puntaje
             console.log('Incorrecto.')
         }
         oportunidad = oportunidad - 1;
