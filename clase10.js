@@ -59,6 +59,7 @@ function esValida(correo)
         }
         // return correo.indexOf(@)!==-1
 }
+//tu codigo
 function verificarCoreeos(correo, validos, descartados){
     // tu codigo
     for(let pos=0; pos<arrayCorreosDescartados.length; pos++){
@@ -74,7 +75,9 @@ verificarCoreeos(arrayCorreosDescartados,arrayCorreosPendientes,arrayCorreosAdmi
 console.log("--Array de correos admitidos: " + "longitud de array" + arrayCorreosDescartados);
 console.log(arrayCorreosAdmitidos);
 console.log();
-console.log("---Array de correos Destacados:" + "longuitud de array" + "longuitud de array" +arrayCorreosPendientes);
+console.log("---Array de correos Destacados:" + "longuitud de array" + "longuitud de array" +arrayCorreosDestacados);
+console.log(arrayCorreosPendientes);
+console.log("---Array de correos pendientes:" + "longuitud de array" + "longuitud de array" +arrayCorreosPendientes);
 console.log(arrayCorreosPendientes);
 
 let nuevoMeil=promt("Ingresa tu meil: ");
@@ -85,16 +88,16 @@ if (esValida(nuevoMeil))
 
 //tarea d ela clase 10
  let numbers =[22, 33, 54, 66, 72]
-console.log(numbers[numbers.length])*/
+console.log(numbers[numbers.length])
 
-let peliculas = [
+/*let peliculas = [
     `star wars`,
     `totoro`,
     `rocky`,
     `pulp fiction`,
     `la vida es bella`,
-]
-console.log(peliculas[2]);
+]/*
+//console.log(peliculas[2]);
 // El nombre de la funcion es aMayusculas
 // aMayusculas recibe un parametro llamado listaDePeliculas
 
@@ -105,7 +108,7 @@ console.log(peliculas[2]);
     }
 
 }*/
-function aMayusculas(listaDePeliculas){
+/*function aMayusculas(listaDePeliculas){
     let respuesta = []
     for(let pos=0; pos<listaDePeliculas.length; pos++){
         let x = listaDePeliculas[pos].toUpperCase();
@@ -115,7 +118,7 @@ function aMayusculas(listaDePeliculas){
     return respuesta
 }
 let en_mayuscula = aMayusculas(peliculas);
-console.log(en_mayuscula)
+console.log(en_mayuscula)*/
 
 
     
