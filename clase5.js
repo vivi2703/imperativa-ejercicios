@@ -17,7 +17,7 @@
 
 //funcion del lenguaje
 
-console.log("Hola");
+/*console.log("Hola");
 let numero=Math.random(Math.random())*100;
 console.log(numero);
 console.log(Math.random());
@@ -47,4 +47,8 @@ let num1=0;
 
 //funcion expresada
 
-//funcion flecha
+//funcion flecha*/
+
+let LaMitad = numero => numero / 2;
+
+console.log(LaMitad(8));

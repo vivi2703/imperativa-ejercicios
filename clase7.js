@@ -236,7 +236,7 @@ function puedeSubir(altura, acompanado)
 
     else if (vehiculo == "moto")
     {total = litroConsumidos * 70}
-
+ &&!@#$%^&*()_+}{P:"|?><"}
     else if (vehiculo == "autobus")
     {total = litroConsumidos * 55}
 
